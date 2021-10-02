@@ -2,7 +2,7 @@
 /**
  * main - prints the alphabet in lowercase and uppercase
 (*
-* Return: 0 
+* Return: 0
 */
 int main(void)
 {
@@ -12,5 +12,5 @@ putchar(ch);
 for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
 putchar('\n');
-return (0); 
+return (0);
 }

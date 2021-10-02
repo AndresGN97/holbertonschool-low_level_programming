@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */ 
+/* more headers goes there */
 /**
  * main: determine if a number is positive or negative
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
