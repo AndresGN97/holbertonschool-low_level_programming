@@ -12,7 +12,7 @@ while (digit <= '9')
 {
 putchar(digit);
 if (digit != '9')
-}
+{
 putchar(',');
 putchar(' ');
 }
