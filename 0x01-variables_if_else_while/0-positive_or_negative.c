@@ -9,7 +9,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/**
+*main: determine if a number is possitive or negative
+*
+*Return: 0
+*/
 int main(void)
 {
 int n;
