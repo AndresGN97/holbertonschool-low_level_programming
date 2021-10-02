@@ -1,19 +1,15 @@
 /**
 *0x01-variables_if_else_while
-
+*
+*main: determine if a number is positive or negative
+*
+*Return 0
 *made by: Andrés Guevara
  */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/**
- * main: determine if a number is positive or negative
- *
- * Return: Always 0
- */
 int main(void)
 {
 int n;
