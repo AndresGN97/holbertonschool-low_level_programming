@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_to_98 - print the real number from n to 98
+ *@n: the integer in wich the list start
+ * Return: The real numbers up to 98
  */
 void print_to_98(int n)
 {
