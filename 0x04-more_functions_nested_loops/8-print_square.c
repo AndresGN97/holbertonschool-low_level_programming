@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
- * _isdigit - check if a character is a digit.
- *@c: Character to be check.
+ * print_square - Print a square using character #.
+ *
  * Return: Always 0.
  */
 void print_square(int size)
 {
-  int h, w;
-
-  if (size > 0)
-    {
-      for (h = 0; h < size; h++)
-	{
-	  for (w = 0; w < size; w++)
-	    _putchar('#');
-
-	  if (h == size - 1)
-	    continue;
-	  _putchar('\n');
-	}
-    }
-
-  _putchar('\n');
+int h, w;
+if (size > 0)
+{
+for (h = 0; h < size; h++)
+{
+for (w = 0; w < size; w++)
+_putchar('#');
+if (h == size - 1)
+continue;
+_putchar('\n');
+}
+}
+_putchar('\n');
 }
