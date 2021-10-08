@@ -2,7 +2,7 @@
 
 /**
  * print_square - Print a square using character #.
- *
+ *@size: Set the size of the objecto to print.
  * Return: Always 0.
  */
 void print_square(int size)
