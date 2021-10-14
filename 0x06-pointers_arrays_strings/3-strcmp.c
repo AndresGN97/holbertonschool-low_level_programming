@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- *_strcmp - takes a pointer
+ * _strcmp - takes a pointer
  *@s1:First string.
  *@s2:Scond string.
- *return: integer
+ *
+ *Return: integer value.
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -39,7 +40,6 @@ else
 r = s1[c] - s2[c];
 break;
 }
-
 c++;
 }
 return (r);
